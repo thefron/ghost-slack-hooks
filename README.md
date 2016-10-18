@@ -1,6 +1,6 @@
 # ghost-slack-hooks
 
-slack hooks [gh-ost](https://github.com/github/gh-ost)
+slack hooks for [gh-ost](https://github.com/github/gh-ost)
 
 
 ## Usage
