@@ -1,0 +1,2 @@
+#! /usr/bin/env sh
+$(dirname $0)/tell_slack 'warning' 'Starting migration' "@$GH_OST_HOOKS_HINT starting migration \"ALTER TABLE $GH_OST_DATABASE_NAME.$GH_OST_TABLE_NAME $GH_OST_DDL\""

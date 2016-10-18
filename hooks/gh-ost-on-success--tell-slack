@@ -1,0 +1,2 @@
+#! /usr/bin/env sh
+$(dirname $0)/tell_slack 'good' 'Finished migration' "@$GH_OST_HOOKS_HINT finished migration \"ALTER TABLE $GH_OST_DATABASE_NAME.$GH_OST_TABLE_NAME $GH_OST_DDL\" in $GH_OST_ELAPSED_SECONDS seconds"

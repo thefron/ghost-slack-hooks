@@ -1,0 +1,2 @@
+#! /usr/bin/env sh
+$(dirname $0)/tell_slack 'warning' 'Cut-over postponed' "@$GH_OST_HOOKS_HINT migration cut-over requires user interaction to proceed; will continue to tail and copy binlogs in the meantime: \"ALTER TABLE $GH_OST_DATABASE_NAME.$GH_OST_TABLE_NAME $GH_OST_DDL\""

@@ -1,0 +1,2 @@
+#! /usr/bin/env sh
+curl -X POST --data "{ 'attachments':[{ 'fallback':'$3', 'color':'$1', 'fields':[ { 'title':'$2', 'value':'$3', 'short':false } ]}]}" `cat $(dirname $0)/../.slack_url`
